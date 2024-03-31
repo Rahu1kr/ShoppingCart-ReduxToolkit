@@ -7,7 +7,7 @@ import { Provider } from 'react-redux'
 import { store } from './redux/app/store'
 import { ToggleProvider, useTheme } from "./context/ThemeConvert"
 
-import './index.css'; 
+
 
 const BodyThemeStyles = () => {
   const { currentTheme } = useTheme();
