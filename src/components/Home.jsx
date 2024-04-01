@@ -41,7 +41,7 @@ const Home = () => {
             </button>
           </div>
           <h2 className=" text-xl mb-4">Restaurants in New Delhi Open now</h2>
-          <div className=" flex flex-wrap  lg:gap-6 md:gap-16">
+          <div className=" flex flex-wrap justify-center lg:gap-26 md:gap-16">
             {CardData.map((element, index) => {
               return (
                 <div>
