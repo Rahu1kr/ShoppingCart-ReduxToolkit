@@ -46,7 +46,7 @@ const Home = () => {
               return (
                 <div>
                   <div
-                    className={`flex flex-col w-full max-w-[26rem] border border-red-900 rounded-lg shadow ${
+                    className={`flex flex-col w-full max-w-[22rem] border border-red-900 rounded-lg shadow ${
                       currentTheme === "light"
                         ? " bg-[#31363F] border-[#952322] "
                         : " bg-[#952322] border-[#F2E7C6]"
